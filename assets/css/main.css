@@ -1756,6 +1756,9 @@
 			top: 20px;
 		}
 
+		#h2Contact, #h2Projects {
+			text-align: center;
+		}
 		/* Wrapper */
 
 			#wrapper {
