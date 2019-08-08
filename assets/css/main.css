@@ -1275,7 +1275,7 @@
 					
 				}
 
-					.btn a {
+					.btn span {
 					position: relative; 
 					z-index: 1;
 					color: white;
@@ -1544,7 +1544,7 @@
 					
 				}
 
-					.btn a {
+					.btn span {
 					position: relative; 
 					z-index: 1;
 					color: white;
@@ -1698,7 +1698,7 @@
 				
 			}
 
-				.btn a {
+				.btn span {
 				position: relative; 
 				z-index: 1;
 				color: white;
