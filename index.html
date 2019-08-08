@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<script src="https://kit.fontawesome.com/ab6c377355.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -46,30 +48,33 @@
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2>Projects</h2>
+									<h2 style="text-align: center;">Projects</h2>
 								</header>
 								<p>
-									Here is some of my work:
+									Click on any image to be taken to the live website.
 								</p>
-								<section>
-									<div class="row">
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
-										</div>
-										<div class="4u 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-										</div>
-										<div class="4u$ 12u$(mobile)">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-										</div>
-									</div>
+								<section class="container">
+									<article class="item">
+									<a href="https://momchiltodorov.github.io/rqm">
+										<header>
+											<h2>Random Quote Machine</h2>
+											<div class="faIcons">
+												<i class="fab fa-html5 fa-2x" style="color:orangered"></i><i class="fab fa-bootstrap fa-2x"></i><i class="fab fa-react fa-2x" style="color:lightskyblue"></i>
+											</div>
+											<hr>
+										</header>
+										<img id="rqmImg" src="images/rqm.gif" alt="" />
+										
+										<button class="btn"><a href="https://github.com/MomchilTodorov/rqm/tree/master" alt="">CODE & INFO</a></button>		
+									</a>
+									</article>
 								</section>
 							</article>
 
 						<!-- Contact -->
 							<article id="contact" class="panel">
 								<header>
-									<h2>Contact Me</h2>
+									<h2 style="text-align: center;">Contact Me</h2>
 								</header>
 								<form action="https://formspree.io/momchil.v.todorov@gmail.com" method="POST">
 									<div>
@@ -87,7 +92,7 @@
 												<textarea name="message" placeholder="Message" rows="8"></textarea>
 											</div>
 											<div class="12u$">
-												<input type="submit" value="Send Message" />
+												<button type="input" class="btn"><a>Send Message</a></button>
 											</div>
 										</div>
 									</div>
