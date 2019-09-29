@@ -1206,7 +1206,7 @@
 					  text-decoration: none;
 				  }
 
-				  #rqmImg {
+				  #rqmImg, #e-commerceImg {
 					  width: 95%;
 					  position: relative;
 					  bottom: 15px;
@@ -1614,7 +1614,7 @@
 						  text-decoration: none;
 					  }
 	
-					  #rqmImg {
+					  #rqmImg, #e-commerceImg {
 						  width: 95%;
 						  position: relative;
 						  bottom: 15px;
@@ -1785,7 +1785,7 @@
 			  text-decoration: none;
 		  }
 
-		  #rqmImg {
+		  #rqmImg, #e-commerceImg {
 			  width: 95%;
 			  position: relative;
 			  bottom: 15px;
