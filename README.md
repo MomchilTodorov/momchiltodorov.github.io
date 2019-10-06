@@ -1,1 +1,1 @@
-Portfolio built using HTML, CSS, and jQuery.
+Personal portfolio built using HTML, CSS, and jQuery.
