@@ -1031,7 +1031,6 @@
 
 /* Icons */
 
-		
 
 	.icon {
 		position: relative;
@@ -1055,6 +1054,21 @@
 			position: relative;
 			top: 20px;
 		}
+
+		.faIcons3 {
+			position: relative;
+			top: -15px;
+			left: 25px;
+			padding-top: 2px;
+		}
+
+		.faIcons4 {
+			position: relative;
+			top: -15px;
+			left: 25px;
+		}
+
+
 
 /* Nav */
 
@@ -1206,7 +1220,7 @@
 					  text-decoration: none;
 				  }
 
-				  #rqmImg, #e-commerceImg {
+				  #rqmImg, #e-commerceImg, #emailyImg, #tracksImg {
 					  width: 95%;
 					  position: relative;
 					  bottom: 15px;
@@ -1215,7 +1229,40 @@
 				  #redux-logo {
 					  width: 9% !important;
 					  padding-top: 25px !important;
+					  position: relative;
+					  z-index: 99;
 				  }
+
+				  #python-logo {
+					width: 9% !important;
+					z-index: 99;
+					position:relative;
+					top: 2px;
+					left: 6px;
+					
+				}
+				#postgres-logo {
+					width: 28% !important;
+					position: relative;
+					top: 25px;
+					right: 28px;
+					
+				}
+
+				#node-logo {
+					width: 9% !important;
+					position: relative;
+					right: 40px;
+				}
+
+				#mongodb-logo {
+					width: 20% !important;
+					position:relative;
+					top: 26px;
+					right: 20px;
+				}
+
+				
 
 		/* Button */
 
@@ -1580,6 +1627,11 @@
 					  .item2 a {
 						  text-decoration: none;
 					  }
+
+					
+
+
+					 
 	
 					  #rqmImg, #e-commerceImg {
 						  width: 95%;
