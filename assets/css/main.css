@@ -1227,10 +1227,11 @@
 				  }
 				  
 				  #redux-logo {
-					  width: 9% !important;
+					  max-width: 9% !important;
 					  padding-top: 25px !important;
 					  position: relative;
 					  z-index: 99;
+					  
 				  }
 
 				  #python-logo {
@@ -1244,8 +1245,8 @@
 				#postgres-logo {
 					width: 28% !important;
 					position: relative;
-					top: 25px;
-					right: 28px;
+					top: 1.1em;
+					right: 25px;
 					
 				}
 
@@ -1258,7 +1259,7 @@
 				#mongodb-logo {
 					width: 20% !important;
 					position:relative;
-					top: 26px;
+					top: 1.2em;
 					right: 20px;
 				}
 
@@ -1627,11 +1628,6 @@
 					  .item2 a {
 						  text-decoration: none;
 					  }
-
-					
-
-
-					 
 	
 					  #rqmImg, #e-commerceImg {
 						  width: 95%;
@@ -1639,10 +1635,6 @@
 						  bottom: 15px;
 					  }
 
-					  #redux-logo {
-						width: 9% !important;
-						padding-top: 25px !important;
-					}
 	
 					  .faIcons {
 						position: relative;
@@ -1786,7 +1778,7 @@
 			  text-decoration: none;
 		  }
 
-		  #rqmImg, #e-commerceImg {
+		  #rqmImg, #e-commerceImg, #tracksImg, #emailyImg {
 			  width: 95%;
 			  position: relative;
 			  bottom: 15px;
@@ -1794,13 +1786,59 @@
 
 		  #redux-logo {
 			width: 8% !important;
+			position: relative;
 			padding-top: 25px !important;
+			z-index: 98
+		}
+
+		#python-logo {
+			width: 9% !important;
+			z-index: 99;
+			position:relative;
+			top: 2px;
+			left: 6px;
+			
+		}
+		#postgres-logo {
+			width: 28% !important;
+			position: relative;
+			top: 1.2em;
+			right: 21px;
+			
+		}
+
+		#node-logo {
+			width: 9% !important;
+			position: relative;
+			right: 40px;
+		}
+
+		#mongodb-logo {
+			width: 20% !important;
+			position:relative;
+			top: 1.5em;
+			right: 20px;
+			z-index: 0;
 		}
 
 		  .faIcons {
 			position: relative;
 			top: 20px;
 		}
+
+		.faIcons3 {
+			position: relative;
+			top: -15px;
+			left: 25px;
+			padding-top: 2px;
+		}
+
+		.faIcons4 {
+			position: relative;
+			top: -15px;
+			left: 25px;
+		}
+
 
 		#h2Contact, #h2Projects {
 			text-align: center;
@@ -1918,3 +1956,7 @@
 					}
 
 	}
+
+	
+
+	
